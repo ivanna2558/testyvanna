@@ -1,8 +1,8 @@
 #!/bin/bash
 # Заголовок вверху називається shebang
 name=$1
-if [[ $name != "1_project" && $name != "2_project" ]]; then
-    echo "Ми передали неправильну назву проекту! В нас є тільки 1_project та 2_project";
+if [[ $name != "1_pro" && $name != "2_pro" ]]; then
+    echo "Ми передали неправильну назву проекту! В нас є тільки 1_pro та 2_pro";
     exit 1
 fi  
 cd $name

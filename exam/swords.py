@@ -1,5 +1,5 @@
 from random import choice
-from exam.buff import Buff
+from buff import Buff
 
 class SwordsSecond:
     """Це наш перший клас який використовує конструктор для визначення наперед заданих атрибутів"""
